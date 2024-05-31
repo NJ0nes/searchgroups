@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Search Groups",
+    "description": "Type 'sg' to search multiple installed engines at once.",
+    "developer": {
+        "name": "Nathaniel Jones",
+        "url": "https://github.com/NJ0nes/searchgroups"
+    },
+    "version": "1.0",
+    "permissions": ["tabs", "search", "storage"],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "omnibox": { "keyword": "sg" },
+    "options_ui": {
+        "page": "/preferences/index.html",
+        "open_in_tab": true
+    },
+    "icons": {
+        "48": "/icons/icon48.png",
+        "96": "/icons/icon96.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{c265e0fe-9b45-4de5-9d46-b3bbc1527ec4}",
+            "strict_min_version": "78.0"
+        }
+    }
+}

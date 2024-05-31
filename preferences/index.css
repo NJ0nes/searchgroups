@@ -1,0 +1,71 @@
+body {
+    margin: 7vw;
+    font-family: sans;
+    background-color: #1b1b1f;
+    color: #ffffff;
+}
+
+table {
+    padding: 16px 0px;
+}
+
+th, td {
+    padding: 2px 15px;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #1f1f24;
+}
+
+input {
+    padding: 4px;
+    background-color: 22222f;
+    color: #ffffff;
+    border: 1px solid #44444f;
+}
+
+.prefix_text, .suffix_text {
+    width: 95%;
+}
+
+label {
+    padding: 10px;
+}
+
+button {
+    padding: 16px;
+    background-color: 22222f;
+    border: 0px;
+    color: #ffffff;
+}
+button:hover {
+    background-color: 33333f;
+}
+
+select {
+    padding: 16px;
+    border: 0px;
+    background-color: 22222f;
+    color: #ffffff;
+}
+select:hover {
+    background-color: 33333f;
+}
+
+td:has(input) {
+    text-align: center;
+}
+
+#groupname {
+    font-size: large;
+    padding: 16px;
+}
+
+#choosegroup, #fileops {
+    padding: 16px 0px;
+}
+
+#tablecontainer {
+    display: flex;
+    flex-flow: column;
+}

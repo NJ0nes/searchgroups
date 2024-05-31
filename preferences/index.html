@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Search Groups Settings</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css" />
+        <link rel="icon" href="/icons/icon48.png" />
+    </head>
+
+    <body>
+        <h1>Search Groups Settings</h1>
+        <input type="text" id="filter" placeholder="Filter engines" />
+        <div id="tablecontainer">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Enabled</th>
+                        <th scope="col">Engine</th>
+                        <th scope="col">Prefix</th>
+                        <th scope="col">Suffix</th>
+                    </tr>
+                </thead>
+                <tbody id="enginelist">
+
+                </tbody>
+            </table>
+        </div>
+        <input type="text" id="groupname" />
+        <label for="groupname">Group Keyword (must not contain spaces)</label>
+        <br/>
+        <div id="choosegroup">
+            <select id="groupselect">
+                <option value="__blank">-- new --</option>
+            </select>
+            <button id="update-btn">Create Group</button>
+            <button id="delete-btn" style="display: none;">Delete Group</button>
+        </div>
+        <input type="checkbox" id="separatorenable"/>
+        <label for="separatorenable">Create separator tab for searches</label>
+        <div id="fileops">
+            <button id="import">Import Settings</button>
+            <button id="export">Export Settings</button>
+        </div>
+    </body>
+
+    <script src="prefs.js"></script>
+</html>

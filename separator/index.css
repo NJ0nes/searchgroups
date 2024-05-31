@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans;
+    background-color: #1b1b1f;
+    color: #ffffff;
+    margin: 2vw;
+    font-size: larger;
+}
+
+div.center {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
