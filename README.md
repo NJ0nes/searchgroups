@@ -6,13 +6,13 @@ Simply choose which engines you want to group together, give the group a keyword
 
 ## Features
 
-* Suggestions of group keywords for autocompletion
+* Suggestion of group keywords for autocompletion
 
 * Partial matching for group keywords
 
 * Add custom prefix or suffix to query per-engine per-group
 
-* Separator tab to tell which tabs came from which searches (particularly useful with [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+* Separator tab to tell which tabs came from which searches (particularly useful with [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/))
 
 * Export and import settings
 
